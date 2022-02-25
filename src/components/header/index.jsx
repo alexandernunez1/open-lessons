@@ -1,3 +1,4 @@
+import { IconButton } from '@mui/material'
 import React from 'react'
 import { 
     HeaderContainer,
@@ -22,7 +23,11 @@ const Header = () => {
           </HeaderCenter>
           <HeaderRight>
               <PrintIcon />
-              <GitHubIcon />
+              <IconButton 
+              style={{color: "#0b4f6c"}}
+              href='https://github.com/alexandernunez1/open-lessons'>
+                <GitHubIcon />
+              </IconButton>
           </HeaderRight>
       </HeaderContainer>    
 
